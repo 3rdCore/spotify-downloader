@@ -39,4 +39,4 @@ VOLUME /music
 WORKDIR /music
 
 # Entrypoint command
-ENTRYPOINT ["poetry", "run", "spotdl"]
+ENTRYPOINT ["poetry", "run", "spotdl","web"]
