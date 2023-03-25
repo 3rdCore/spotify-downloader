@@ -6,3 +6,4 @@ services:
       - /srv/dev-disk-by-uuid-ab3c3a36-84da-4880-9133-2ee914e9b648/appdata:/music
     ports:
       - "8800:8800"
+    restart: unless-stopped
