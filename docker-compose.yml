@@ -4,3 +4,5 @@ services:
     image: "spotdl/spotify-downloader"
     volumes:
       - .:/music
+    ports:
+      - "8086:8086"
